@@ -1,4 +1,4 @@
-# Ammonite Shell for Dockeri
+# Ammonite Shell for Docker
 
 ```
 docker pull zikolach/amm
