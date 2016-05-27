@@ -1,1 +1,1 @@
-println("Hello Ammonite!")
+println("Hello from Ammonite Shell!")
