@@ -1,6 +1,6 @@
-FROM java
-RUN apt-get -qq update && apt-get -qq install -y --no-install-recommends less
-ADD hello.scala /
+FROM java:latest
 RUN mkdir ~/.ammonite && curl -Ls -o ~/.ammonite/predef.scala https://git.io/vro0a
-RUN curl -Ls -o /bin/amm https://git.io/vro0u && chmod +x /bin/amm && amm hello.scala 2>/dev/null && rm hello.scala
-CMD ["amm"]
+RUN curl -Ls -o /bin/amm https://git.io/vdNv2 && chmod +x /bin/amm
+EXPOSE 8080
+# ADD index.scala /bin/
+# CMD ["index.scala"]
